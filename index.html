@@ -389,9 +389,9 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mqtt/4.2.8/mqtt.min.js"></script>
     <script>
-        // MQTT Configuration
+        // MQTT Configuration - Fixed to match device
         const mqttConfig = {
-    host: 'ws://broker.hivemq.com:8000/mqtt',
+            host: 'ws://broker.hivemq.com:8000/mqtt',
             options: {
                 keepalive: 60,
                 reconnectPeriod: 1000,
